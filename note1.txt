@@ -1,0 +1,33 @@
+Identity function
+The gradient f(x) = (df/dx)(x) in one-dimensional cases
+
+Sigmoid Function (Logistic)
+f(x) = 1 / (1 + e^(-x)), f`(x) = f(x)(1 - f(x))
+
+float getSigmoid(const float& x)
+{
+	return 1.0f / (1.0f + exp(-x));
+}
+
+float getGradSigmoid(const float& x)
+{
+	const float f = getSigmoid(x);
+	return f * (1.0 - f);
+}
+
+ReLU Function
+f(x) = 0 for x < 0
+f(x) = x for x >= 0
+
+f`(x) = 0 for x < 0
+f`(x) = 1 for x >= 0
+
+float getReLU(const float& x)
+{
+	return x >= 0.0f ? x : 0.0f;
+}
+
+float getGradReLU(const float& x)
+{
+	return x >= 0.0f ? 1 : 0.0f;
+}
