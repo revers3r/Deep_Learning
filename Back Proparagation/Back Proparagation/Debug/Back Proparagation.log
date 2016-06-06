@@ -1,0 +1,13 @@
+﻿빌드 시작: 2016-06-05 오후 9:27:58
+     1>2 노드의 "E:\github\Deep Learning\Back Proparagation\Back Proparagation\Back Proparagation.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         E:\Tool\Visual Studio 2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt back.cpp
+         back.cpp
+       Link:
+         E:\Tool\Visual Studio 2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\github\Deep Learning\Back Proparagation\Debug\Back Proparagation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\github\Deep Learning\Back Proparagation\Debug\Back Proparagation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\github\Deep Learning\Back Proparagation\Debug\Back Proparagation.lib" /MACHINE:X86 Debug\back.obj
+         Back Proparagation.vcxproj -> E:\github\Deep Learning\Back Proparagation\Debug\Back Proparagation.exe
+     1>"E:\github\Deep Learning\Back Proparagation\Back Proparagation\Back Proparagation.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.37
